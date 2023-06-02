@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Audience Reviews</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style-formular.css" type="text/css">
+        <link rel="shortcut icon" href="lalaland_icon.ico" type="image/x-icon">
+        <script type="text/javascript" src="formular.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1> LA LA LAND</h1>
+            <nav>
+                <a href="proiect.html"> Home</a>
+            </nav>
+        </header>
+
+        <main>
+            <article> 
+                <form id="reviewForm">
+                    <h2 id="tomatoe"> &#127813;91% TOMATOMETER &#127871;81% AUDIENCE SCORE</h2>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="stars">Number of Stars:</label>
+                    <input type="number" id="stars" name="stars" min="1" max="5">
+                
+                    <label for="review">Review:</label>
+                    <textarea id="review" name="review" required wrap="hard" resize="none"></textarea>
+                
+                    <button type="submit"> Submit</button>
+                </form>
+
+                <section id = "comments"> </section>
+    
+            </article>
+        </main>
+
+        <footer> Page made by - Ioana Potlog</footer>
+
+    </body>
+    
+</html>

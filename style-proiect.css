@@ -170,13 +170,6 @@ li:nth-child(6) {
 }
 
 /* Footer - generate content using before*/
-#nume {
-    text-align: center;
-    font-size: 20px;
-    color:#fff;
-    background-color:#3a1c9c;
-    padding: 5px;
-}
 footer p::before {
     content: "Page made by - ";
     font-weight: bold;
